@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   border-bottom: 0.1px solid lightgray;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -8,6 +8,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  background-color: white;
 }
 
 .header__left {
